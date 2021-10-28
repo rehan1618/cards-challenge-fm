@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+.card {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: initial;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.sedans {
+  background: #e38826;
+  border-radius: 5px 0 0 5px;
+}
+
+.luxury {
+  background: #004241;
+  border-radius: 0 5px 5px 0;
+}
+
+.suvs {
+  background: #006970;
+}
+
+.sedans-btn {
+  color: #e38826;
+}
+
+.suvs-btn {
+  color: #006970;
+}
+
+.luxury-btn {
+  color: #004241;
+}
+
+.card > p {
+  width: 70%;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+  margin-bottom: 4rem;
+}
+
+.card > h1 {
+  text-transform: uppercase;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+}
+
+.card > button {
+  border: none;
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 1rem;
+  width: 50%;
+  margin: 2rem 0 0;
+}
+
+.card > button:hover {
+  color: white;
+  margin-top: calc(2rem - 4px);
+  background: transparent;
+  border: 2px solid white;
+}
+
+@media screen and (max-width: 642px) {
+  .sedans {
+    background: #e38826;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .luxury {
+    background: #004241;
+    border-radius: 0 0 5px 5px;
+  }
+}

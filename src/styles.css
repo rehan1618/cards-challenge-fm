@@ -1,0 +1,17 @@
+.App {
+  padding: 25% 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  color: white;
+  background: #f2f2f2;
+}
+
+@media screen and (max-width: 642px) {
+  .App {
+    flex-direction: column;
+    align-items: center;
+  }
+}
